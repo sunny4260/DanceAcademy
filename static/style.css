@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Garamond:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aboreto',sans-serif;
+}
+
+/* logo */
+
+#logo{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin: 0px 14px;
+}
+
+#logo img{
+    height: 35px;
+    filter: invert(1);
+}
+
+/* Nav Bar */
+#navbar{
+    background-color: #861a1a;
+    padding: 14px 10px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 12px 15px;
+    padding: 6px 8px;
+}
+
+#navbar ul li a:hover{
+    background-color: #000;
+    border-radius: 20px;
+}
+
+/* Intro section */
+
+#introSection{
+    color: #fff;
+    padding-bottom: 45px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 37px;
+    background: url(../static/img/serhii.jpg) no-repeat center ;
+    background-size: cover;
+
+}
+
+#introSection div.small{
+    font-size: 27px;
+    padding: 7px;
+}
+
+/* Mission Section */
+
+#missionSection{
+    text-align: center;
+    padding-top: 10px;
+    height: 300px; 
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 25px;
+    height: 210px;
+    background-color: #eee9e9;
+
+}
+.card h3{
+    margin-top:  10px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 135px;
+    padding: 0 14px;
+    margin: 7px 9px;
+
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 16px;
+}
+
+
+/* Sponsor Section */
+
+#sponsorSection{
+    height: 300px;
+    background-color: #f2cfcf
+}
+
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#sponsor{
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+    max-height: 1000px;
+    margin:20px auto;
+} 
+
+#sponsor img{
+    height: 225px;
+    margin: 50px;
+    margin-top: -15px;
+}
+
+/* Footer */
+
+#footer{
+    display: flex;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}

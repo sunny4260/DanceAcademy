@@ -1,0 +1,61 @@
+//- index.pug
+doctype html
+html
+  head
+    title Elegant Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo 
+                img(src="../static/img/logo3.png", alt="")
+                |  EDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Servics] 
+            li #[a(href="/") Team] 
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div  Welcome To Elegant Dance Academy
+        div.small  We teach the joy of dance
+
+    section#missionSection
+        h2 Our mission
+        div.card 
+            h3 Hip Hop 
+            div.card-box 
+                div.card-img 
+                    img(src="../static/img/img1.jpg", alt="")
+                div.card-content 
+                    p You might win some, but you just lost one
+        div.card 
+            h3 Ballroom 
+            div.card-box 
+                div.card-img 
+                    img(src="../static/img/img2.jpg", alt="")
+                div.card-content 
+                    p Dancing, at its best, is independence and intimacy in balance.
+
+        div.card 
+            h3 Ballet
+            div.card-box 
+                div.card-img 
+                    img(src="../static/img/img3.jpg", alt="")
+                div.card-content 
+                    p Lace Your Dancing Shoes.
+
+    section#sponsorSection
+        h2 Our Sponsor 
+        div#sponsor 
+            img(src="../static/img/logo7.png", alt="SP" , class="spimg")
+            img(src="../static/img/logo2.png", alt="SP" , class="spimg")
+            img(src="../static/img/logo8.png", alt="SP" , class="spimg")
+            img(src="../static/img/logo4.png", alt="SP" , class="spimg")
+            img(src="../static/img/logo5.png", alt="SP" , class="spimg")
+    
+    footer#footer 
+        |  CopyRight © 2023 Elegant Dance Academy.com. All right reserved
+    script
+      include ../static/index.js
